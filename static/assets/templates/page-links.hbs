@@ -1,0 +1,29 @@
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+    <!--USE FOR ACTIVE TAB-->
+    <li class="nav-item">
+    <a class="nav-link {{index}}" aria-current="page" href="/">Home</a>
+    </li>
+
+    <!--USE FOR INACTIVE TAB-->
+    <li class="nav-item">
+    <a class="nav-link {{members}}" href="members">Members</a>
+    </li>
+
+    <!--USE FOR DROPDOWN-->
+    <li class="nav-item dropdown {{gallery}}">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Gallery
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item {{featured}}" href="featured">Featured MOCs</a></li>
+        <li><a class="dropdown-item {{all_mocs}}" href="all">All MOCs</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item {{collabs}}" href="collaborations">Collaborations</a></li>
+    </ul>
+    </li>
+
+    <li class="nav-item">
+    <a class="nav-link {{apply}}" href="apply">Apply</a>
+    </li>
+</ul>
