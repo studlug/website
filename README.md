@@ -1,3 +1,1 @@
-# azure-functions
-# website
 # website
